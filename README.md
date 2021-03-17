@@ -29,5 +29,15 @@ The challenge uses the standard PASCAL VOC 2010 mean Average Precision (mAP) at 
 -------
 
 
+## VinBigData 2-class classifier complete pipeline
+https://www.kaggle.com/corochann/vinbigdata-2-class-classifier-complete-pipeline
+
+
+
+
+       Public Score: 0.223
+
+
+-------
 
 
