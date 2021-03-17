@@ -111,11 +111,12 @@ https://arxiv.org/pdf/2004.09167.pdf
 ## VinBigData 2-class classifier complete pipeline
 https://www.kaggle.com/corochann/vinbigdata-2-class-classifier-complete-pipeline
 
+## VinBigData_2-class_classifier_complete_pipeline-2
 
+### optimizer: lr=1e-3: default
 
-
-       Public Score: 0.223
-
+       lr=1e-2     LB   vsr6
+       lr=1e-3     LB 0.223  vsr5
 
 -------
 
