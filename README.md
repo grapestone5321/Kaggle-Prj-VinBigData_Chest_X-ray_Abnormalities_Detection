@@ -115,8 +115,10 @@ https://www.kaggle.com/corochann/vinbigdata-2-class-classifier-complete-pipeline
 
 ### optimizer: lr=1e-3: default
 
+       lr=1e-1     LB   vsr
        lr=1e-2     LB 0.223  vsr6
        lr=1e-3     LB 0.223  vsr5
+       
 
 -------
 
