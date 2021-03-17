@@ -28,6 +28,33 @@ The challenge uses the standard PASCAL VOC 2010 mean Average Precision (mAP) at 
 
 -------
 
+## Dataset information
+
+The dataset comprises 18,000 postero-anterior (PA) CXR scans in DICOM format, which were de-identified to protect patient privacy. 
+
+All images were labeled by a panel of experienced radiologists for the presence of 14 critical radiographic findings as listed below:
+
+      0 - Aortic enlargement
+      1 - Atelectasis
+      2 - Calcification
+      3 - Cardiomegaly
+      4 - Consolidation
+      5 - ILD
+      6 - Infiltration
+      7 - Lung Opacity
+      8 - Nodule/Mass
+      9 - Other lesion
+      10 - Pleural effusion
+      11 - Pleural thickening
+      12 - Pneumothorax
+      13 - Pulmonary fibrosis
+
+The "No finding" observation (14) was intended to capture the absence of all findings above.
+
+Note that a key part of this competition is working with ground truth from multiple radiologists.
+
+-------
+
 
 ## VinBigData 2-class classifier complete pipeline
 https://www.kaggle.com/corochann/vinbigdata-2-class-classifier-complete-pipeline
