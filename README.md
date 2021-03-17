@@ -58,7 +58,7 @@ Note that a key part of this competition is working with ground truth from multi
 
 ## Papers
 
-### VinDr-CXR: An open dataset of chest X-rays with radiologist's annotations
+### 1. VinDr-CXR: An open dataset of chest X-rays with radiologist's annotations
 https://arxiv.org/pdf/2012.15029.pdf
 
 ### ABSTRACT
@@ -76,6 +76,28 @@ https://arxiv.org/pdf/2012.15029.pdf
       All images are made publicly available in DICOM format in company with the labels of the training set. 
       The labels of the test set are hidden at the time of writing this paper as they will be used for benchmarking machine 
       learning algorithms on an open platform.
+
+### 2. CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning
+https://arxiv.org/pdf/1711.05225.pdf
+
+### 3. CheXpedition: Investigating Generalization Challenges for Translation of Chest X-Ray Algorithms to the Clinical Setting
+https://arxiv.org/pdf/2002.11379.pdf
+
+
+### 4. Interpreting chest X-rays via CNNs that exploit hierarchical disease dependencies and uncertainty labels
+https://arxiv.org/pdf/1911.06475.pdf
+
+### 5. PADCHEST: A LARGE CHEST X-RAY IMAGE DATASET WITH MULTI-LABEL ANNOTATED REPORTS
+https://arxiv.org/pdf/1901.07441.pdf
+
+
+### 6. CheXbert: Combining Automatic Labelers and Expert Annotations for Accurate Radiology Report Labeling Using BERT
+https://arxiv.org/pdf/2004.09167.pdf
+
+
+
+
+
 
 -------
 
