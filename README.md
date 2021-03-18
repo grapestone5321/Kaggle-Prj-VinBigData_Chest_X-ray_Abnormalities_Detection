@@ -125,10 +125,15 @@ https://www.kaggle.com/corochann/vinbigdata-2-class-classifier-complete-pipeline
 
 lr=1e-3:
 
-      seed: int = 111      LB 0.223  vsr5
-      seed: int = 42  
+      seed: int = 111      LB 0.223   vsr5
+      seed: int = 42       LB 0.223   vsr8
 
-
+# Training config
+      epoch: int = 20      LB 0.223   vsr5
+      epoch: int = 30      LB 0.223   vsr8
+      
+      
+      
 
 -------
 
