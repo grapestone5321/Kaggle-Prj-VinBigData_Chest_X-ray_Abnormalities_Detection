@@ -115,10 +115,20 @@ https://www.kaggle.com/corochann/vinbigdata-2-class-classifier-complete-pipeline
 
 ### optimizer: lr=1e-3: default
 
-       lr=1e-1     LB   vsr
+       lr=1e-1     LB 0.223  vsr7
        lr=1e-2     LB 0.223  vsr6
        lr=1e-3     LB 0.223  vsr5
        
+### Data config
+      imgdir_name: str = "vinbigdata-chest-xray-resized-png-256x256"
+      # split_mode: str = "all_train"  # all_train or valid20
+
+lr=1e-3:
+
+      seed: int = 111      LB 0.223  vsr5
+      seed: int = 42  
+
+
 
 -------
 
