@@ -130,7 +130,7 @@ lr=1e-3:
 
 # Training config
       epoch: int = 20      LB 0.223   vsr5
-      epoch: int = 30      LB 0.223   vsr8
+      epoch: int = 30      LB 0.223   vsr9
       
       
       
