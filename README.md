@@ -56,6 +56,13 @@ The "No finding" observation (14) was intended to capture the absence of all fin
 
 Note that a key part of this competition is working with ground truth from multiple radiologists.
 
+-------
+
+## Visual Object Classes Challenge 2010 (VOC2010)
+http://host.robots.ox.ac.uk/pascal/VOC/voc2010/
+
+
+
 
 -------
 
