@@ -24,7 +24,10 @@ Deadline is at 11:59 PM UTC
 
 ## Evaluation
 
-The challenge uses the standard PASCAL VOC 2010 mean Average Precision (mAP) at IoU > 0.4.
+The challenge uses the standard PASCAL VOC 2010 **mean Average Precision (mAP)** at IoU > 0.4.
+
+### The PASCAL Visual Object Classes Challenge 2010 (VOC2010) Development Kit
+http://host.robots.ox.ac.uk/pascal/VOC/voc2010/devkit_doc_08-May-2010.pdf
 
 -------
 
