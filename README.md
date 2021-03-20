@@ -138,12 +138,28 @@ lr=1e-3:
       seed: int = 111      LB 0.223   vsr5
       seed: int = 42       LB 0.223   vsr8
 
-# Training config
+### Training config
       epoch: int = 20      LB 0.223   vsr5
       epoch: int = 30      LB 0.223   vsr9
       
       
-      
+-------
+
+## VinBigData 🌟2 Class Filter🌟
+https://www.kaggle.com/awsaf49/vinbigdata-2-class-filter
+
+      Public Score: 0.211
+
+## VinBigData-CXR-AD YOLOv5 14 Class [infer]
+https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-infer
+
+      Public Score: 0.148
+
+## VinBigData-CXR-AD YOLOv5 14 Class [train]
+https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-train
+
+
+
 
 -------
 
