@@ -159,6 +159,21 @@ https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-infer
 https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-train
 
 
+-------
+
+## Ensemble of best public notebooks
+
+### high_threshold: default = 0.90
+
+low_threshold = 0.0:
+
+      high_threshold = 0.85    LB 0.207   vsr3
+      high_threshold = 0.89    LB 0.246   vsr5  --- Best
+      high_threshold = 0.90    LB 0.244   vsr1
+      high_threshold = 0.91    LB 0.243   vsr4
+      high_threshold = 0.95    LB 0.241   vsr2
+      
+
 
 
 -------
