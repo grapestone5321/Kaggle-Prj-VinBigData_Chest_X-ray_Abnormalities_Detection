@@ -110,7 +110,13 @@ https://arxiv.org/pdf/1901.07441.pdf
 ### 6. CheXbert: Combining Automatic Labelers and Expert Annotations for Accurate Radiology Report Labeling Using BERT
 https://arxiv.org/pdf/2004.09167.pdf
 
+-------
 
+## Progress
+
+### Public Best LB Score: 0.246
+
+### Private Score: 
 
 
 
