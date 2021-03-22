@@ -154,6 +154,15 @@ lr=1e-3:
 ## VinBigData 🌟2 Class Filter🌟
 https://www.kaggle.com/awsaf49/vinbigdata-2-class-filter
 
+- 2 Class Filter
+
+      Previously I have trained YOLOv5 using 14 class data. 
+      As it creates FP we can tackle that just simply using a 2 class filter. 
+      Here I'll be using 2 class model (AUC:0.98) prediction to filter out the FP predictions. 
+      I used EfficientNetB6 to generate these predictions. 
+      It should increase the score as FP would be reduced significantly
+
+
       Public Score: 0.211
 
 ## VinBigData-CXR-AD YOLOv5 14 Class [infer]
