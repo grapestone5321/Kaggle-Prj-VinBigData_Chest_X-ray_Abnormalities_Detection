@@ -168,8 +168,9 @@ https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-train
 -------
 
 ## Ensemble of best public notebooks
+https://www.kaggle.com/saurabhbagchi/ensemble-of-best-public-notebooks
 
-### high_threshold: default = 0.90
+### low_threshold, high_threshold: default = 0.0, 0.90
 
 low_threshold = 0.0:
 
