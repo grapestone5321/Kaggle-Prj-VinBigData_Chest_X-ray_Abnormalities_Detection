@@ -174,13 +174,23 @@ https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-train
 low_threshold = 0.0:
 
       high_threshold = 0.85    LB 0.207   vsr3
-      high_threshold = 0.89    LB 0.246   vsr5  --- Best
+      high_threshold = 0.86    LB 0.245   vsr8
+      high_threshold = 0.87    LB 0.246   vsr7   --- Best  132 -> 127
+      high_threshold = 0.88    LB 0.246   vsr6             132 -> 132
+      high_threshold = 0.89    LB 0.246   vsr5 
       high_threshold = 0.90    LB 0.244   vsr1
       high_threshold = 0.91    LB 0.243   vsr4
       high_threshold = 0.95    LB 0.241   vsr2
       
+high_threshold = 0.87:
 
+      low_threshold = 0.0     LB 0.246   vsr7   --- Best
+      low_threshold = 0.20    LB 0.246   vsr9             127 -> 127      
+      low_threshold = 0.50    LB 0.246   vsr8             127 -> 127
 
+      
+      
+      
 
 -------
 
