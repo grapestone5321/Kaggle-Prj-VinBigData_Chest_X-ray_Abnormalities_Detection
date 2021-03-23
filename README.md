@@ -195,8 +195,13 @@ low_threshold = 0.0:
 high_threshold = 0.87:
 
       low_threshold = 0.0     LB 0.246   vsr7   --- Best
-      low_threshold = 0.20    LB 0.246   vsr9             127 -> 127      
-      low_threshold = 0.50    LB 0.246   vsr8             127 -> 127
+      low_threshold = 0.01    LB 0.246   vsr15            131 -> 131
+      low_threshold = 0.02    LB 0.246   vsr14            131 -> 131
+      low_threshold = 0.05    LB 0.246   vsr12            131 -> 131
+      low_threshold = 0.08    LB 0.246   vsr13            131 -> 131
+      low_threshold = 0.10    LB 0.246   vsr11            131 -> 131 
+      low_threshold = 0.20    LB 0.246   vsr10            127 -> 127      
+      low_threshold = 0.50    LB 0.246   vsr9             127 -> 127
 
       
       
