@@ -189,6 +189,11 @@ https://www.kaggle.com/awsaf49/vinbigdata-2-class-filter
       I used EfficientNetB6 to generate these predictions. 
       It should increase the score as FP would be reduced significantly
 
+### VinBigData 2-class Prediction: Dataset
+https://www.kaggle.com/awsaf49/vinbigdata-2class-prediction
+
+      pred_2cls = pd.read_csv('../input/vinbigdata-2class-prediction/2-cls test pred.csv')
+
 ### pred_14cls = pd.read_csv
 
       vinbigdata-14-class-submission-lb0154/submission.csv (LB  ):       LB 0.211   ver1
