@@ -203,9 +203,22 @@ high_threshold = 0.87:
       low_threshold = 0.20    LB 0.246   vsr10            127 -> 127      
       low_threshold = 0.50    LB 0.246   vsr9             127 -> 127
 
+
+high_threshold = 0.87, low_threshold = 0.0:
       
-      
-      
+      vinbigdatastack/submission_postprocessed.csv (LB 0.239):   LB 0.246   vsr7   --- Best
+      vinbigdatastack/submission.csv (LB 0.241):                 LB 0.245   vsr16
+      vinbigdatastack/submission (1).csv (LB 0.235)              LB 0.244   vsr17
+
+-------
+
+## VinBigData-submission
+
+      df1 = pd.read_csv('/kaggle/input/vinbigdatastack/submission_postprocessed.csv')     LB 0.239   vsr2
+      df1 = pd.read_csv('/kaggle/input/vinbigdatastack/submission.csv')                   LB 0.241   vsr3
+      df1 = pd.read_csv('/kaggle/input/vinbigdatastack/submission (1).csv')               LB 0.235   vsr4
+
+
 
 -------
 
