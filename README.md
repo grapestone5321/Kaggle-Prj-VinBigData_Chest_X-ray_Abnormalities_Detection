@@ -164,7 +164,7 @@ https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-infer
 ### !python detect.py --weights $weights_dir\
 
       --conf 0.15:    LB  0.148    ver1
-      --conf 0.01:    LB      ver4
+      --conf 0.01:    LB      ver4        --> 5
       
 ### dim = 512 #1024, 256, 'original'
       test_dir = f'/kaggle/input/vinbigdata-{dim}-image-dataset/vinbigdata/test'
@@ -172,7 +172,7 @@ https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-infer
 --conf 0.01: 
 
       dim = 256       LB      ver
-      dim = 512       LB      ver4
+      dim = 512       LB      ver4    --> 5
       dim = 1024      LB      ver
 
 
@@ -199,9 +199,10 @@ https://www.kaggle.com/awsaf49/vinbigdata-2-class-filter
 
 vinbigdatastack/submission_postprocessed.csv (LB 0.239):
 
-low_thr  = 0.08
+low_thr  = 0.08:
 
-      high_thr = 0.95    LB 0.211   ver1
+      high_thr = 0.95    LB    ver      ->> 1
+      high_thr = 0.87    LB    ver      ->> 4
       
       
 high_thr = 0.:
@@ -219,45 +220,45 @@ https://www.kaggle.com/saurabhbagchi/ensemble-of-best-public-notebooks
 
 low_threshold = 0.0:
 
-      high_threshold = 0.85    LB 0.207   vsr3
-      high_threshold = 0.86    LB 0.245   vsr8
-      high_threshold = 0.87    LB 0.246   vsr7   --- Best  132 -> 127
-      high_threshold = 0.88    LB 0.246   vsr6             132 -> 132
-      high_threshold = 0.89    LB 0.246   vsr5 
-      high_threshold = 0.90    LB 0.244   vsr1
-      high_threshold = 0.91    LB 0.243   vsr4
-      high_threshold = 0.95    LB 0.241   vsr2
+      high_threshold = 0.85    LB 0.207   ver3
+      high_threshold = 0.86    LB 0.245   ver8
+      high_threshold = 0.87    LB 0.246   ver7   --- Best  132 -> 127
+      high_threshold = 0.88    LB 0.246   ver6             132 -> 132
+      high_threshold = 0.89    LB 0.246   ver5 
+      high_threshold = 0.90    LB 0.244   ver1
+      high_threshold = 0.91    LB 0.243   ver4
+      high_threshold = 0.95    LB 0.241   ver2
       
 high_threshold = 0.87:
 
-      low_threshold = 0.0     LB 0.246   vsr7   --- Best
-      low_threshold = 0.01    LB 0.246   vsr15            131 -> 131
-      low_threshold = 0.02    LB 0.246   vsr14            131 -> 131
-      low_threshold = 0.05    LB 0.246   vsr12            131 -> 131
-      low_threshold = 0.08    LB 0.246   vsr13            131 -> 131
-      low_threshold = 0.10    LB 0.246   vsr11            131 -> 131 
-      low_threshold = 0.20    LB 0.246   vsr10            127 -> 127      
-      low_threshold = 0.50    LB 0.246   vsr9             127 -> 127
+      low_threshold = 0.0     LB 0.246   ver7   --- Best
+      low_threshold = 0.01    LB 0.246   ver15            131 -> 131
+      low_threshold = 0.02    LB 0.246   ver14            131 -> 131
+      low_threshold = 0.05    LB 0.246   ver12            131 -> 131
+      low_threshold = 0.08    LB 0.246   ver13            131 -> 131
+      low_threshold = 0.10    LB 0.246   ver11            131 -> 131 
+      low_threshold = 0.20    LB 0.246   ver10            127 -> 127      
+      low_threshold = 0.50    LB 0.246   ver9             127 -> 127
 
 
 high_threshold = 0.87, low_threshold = 0.0:
       
-      vinbigdatastack/submission_postprocessed.csv (LB 0.239):   LB 0.246   vsr7   --- Best
-      vinbigdatastack/submission.csv (LB 0.241):                 LB 0.245   vsr16
-      vinbigdatastack/submission (1).csv (LB 0.235)              LB 0.244   vsr17
+      vinbigdatastack/submission_postprocessed.csv (LB 0.239):   LB 0.246   ver7   --- Best
+      vinbigdatastack/submission.csv (LB 0.241):                 LB 0.245   ver16
+      vinbigdatastack/submission (1).csv (LB 0.235)              LB 0.244   ver17
       
-      vinbigdata-14-class-submission-lb0154/submission.csv (LB)    LB    vsr
+      vinbigdata-14-class-submission-lb0154/submission.csv (LB)    LB    vesr       ->> 3
       
 
 -------
 
 ## VinBigData-submission
 
-      df1 = pd.read_csv('/kaggle/input/vinbigdatastack/submission_postprocessed.csv')     LB 0.239   vsr2
-      df1 = pd.read_csv('/kaggle/input/vinbigdatastack/submission.csv')                   LB 0.241   vsr3
-      df1 = pd.read_csv('/kaggle/input/vinbigdatastack/submission (1).csv')               LB 0.235   vsr4
+      df1 = pd.read_csv('/kaggle/input/vinbigdatastack/submission_postprocessed.csv')     LB 0.239   ver2
+      df1 = pd.read_csv('/kaggle/input/vinbigdatastack/submission.csv')                   LB 0.241   ver3
+      df1 = pd.read_csv('/kaggle/input/vinbigdatastack/submission (1).csv')               LB 0.235   ver4
 
-      df2 = pd.read_csv('/kaggle/input/vinbigdata-14-class-submission-lb0154/submission.csv')    LB    vsr5
+      df2 = pd.read_csv('/kaggle/input/vinbigdata-14-class-submission-lb0154/submission.csv')    LB    ver5     ->> 2
 
 -------
 
