@@ -148,7 +148,34 @@ lr=1e-3:
       epoch: int = 20      LB 0.223   vsr5
       epoch: int = 30      LB 0.223   vsr9
       
+
+
+-------
+
+## VinBigData-CXR-AD YOLOv5 14 Class [train]
+https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-train
+
+
+-------     
+
+## VinBigData-CXR-AD YOLOv5 14 Class [infer]
+https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-infer
+
+### !python detect.py --weights $weights_dir\
+
+      --conf 0.15:    LB  0.148    ver1
+      --conf 0.01:    LB      ver4
       
+### dim = 512 #1024, 256, 'original'
+      test_dir = f'/kaggle/input/vinbigdata-{dim}-image-dataset/vinbigdata/test'
+
+--conf 0.01: 
+
+      dim = 256       LB      ver
+      dim = 512       LB      ver4
+      dim = 1024      LB      ver
+
+
 -------
 
 ## VinBigData 🌟2 Class Filter🌟
@@ -162,18 +189,27 @@ https://www.kaggle.com/awsaf49/vinbigdata-2-class-filter
       I used EfficientNetB6 to generate these predictions. 
       It should increase the score as FP would be reduced significantly
 
+### pred_14cls = pd.read_csv
 
-      Public Score: 0.211
-
-## VinBigData-CXR-AD YOLOv5 14 Class [infer]
-https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-infer
-
-      Public Score: 0.148
-
-## VinBigData-CXR-AD YOLOv5 14 Class [train]
-https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-train
+      vinbigdata-14-class-submission-lb0154/submission.csv (LB  ):       LB 0.211   ver1
+      vinbigdatastack/submission_postprocessed.csv (LB 0.239):           LB    vsr          ->> 1
 
 
+### low_thr, high_thr: default = 0.08, 0.95
+
+vinbigdatastack/submission_postprocessed.csv (LB 0.239):
+
+low_thr  = 0.08
+
+      high_thr = 0.95    LB 0.211   ver1
+      
+      
+high_thr = 0.:
+
+      low_threshold = 0.0     LB    vsr
+      
+      
+      
 -------
 
 ## Ensemble of best public notebooks
@@ -209,6 +245,9 @@ high_threshold = 0.87, low_threshold = 0.0:
       vinbigdatastack/submission_postprocessed.csv (LB 0.239):   LB 0.246   vsr7   --- Best
       vinbigdatastack/submission.csv (LB 0.241):                 LB 0.245   vsr16
       vinbigdatastack/submission (1).csv (LB 0.235)              LB 0.244   vsr17
+      
+      vinbigdata-14-class-submission-lb0154/submission.csv (LB)    LB    vsr
+      
 
 -------
 
@@ -218,7 +257,7 @@ high_threshold = 0.87, low_threshold = 0.0:
       df1 = pd.read_csv('/kaggle/input/vinbigdatastack/submission.csv')                   LB 0.241   vsr3
       df1 = pd.read_csv('/kaggle/input/vinbigdatastack/submission (1).csv')               LB 0.235   vsr4
 
-
+      df2 = pd.read_csv('/kaggle/input/vinbigdata-14-class-submission-lb0154/submission.csv')    LB    vsr5
 
 -------
 
