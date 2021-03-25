@@ -164,7 +164,7 @@ https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-infer
 ### !python detect.py --weights $weights_dir\
 
       --conf 0.15:    LB  0.148    ver1
-      --conf 0.01:    LB      ver4        --> 5
+      --conf 0.01:    LB      ver4        --> 1
       
 ### dim = 512 #1024, 256, 'original'
       test_dir = f'/kaggle/input/vinbigdata-{dim}-image-dataset/vinbigdata/test'
@@ -172,7 +172,7 @@ https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-infer
 --conf 0.01: 
 
       dim = 256       LB      ver
-      dim = 512       LB      ver4    --> 5
+      dim = 512       LB      ver4    --> 2
       dim = 1024      LB      ver
 
 
@@ -197,7 +197,7 @@ https://www.kaggle.com/awsaf49/vinbigdata-2class-prediction
 ### pred_14cls = pd.read_csv
 
       vinbigdata-14-class-submission-lb0154/submission.csv (LB  ):       LB 0.211   ver1
-      vinbigdatastack/submission_postprocessed.csv (LB 0.239):           LB 0.243   ver3          ->> 1
+      vinbigdatastack/submission_postprocessed.csv (LB 0.239):           LB 0.243   ver3 
 
 
 ### low_thr, high_thr: default = 0.08, 0.95
@@ -252,7 +252,7 @@ high_threshold = 0.87, low_threshold = 0.0:
       vinbigdatastack/submission.csv (LB 0.241):                 LB 0.245   ver16
       vinbigdatastack/submission (1).csv (LB 0.235)              LB 0.244   ver17
       
-      vinbigdata-14-class-submission-lb0154/submission.csv (LB)    LB    vesr       ->> 3
+      vinbigdata-14-class-submission-lb0154/submission.csv (LB 0.154)    LB 0.208   ver18  
       
 
 -------
@@ -263,7 +263,7 @@ high_threshold = 0.87, low_threshold = 0.0:
       df1 = pd.read_csv('/kaggle/input/vinbigdatastack/submission.csv')                   LB 0.241   ver3
       df1 = pd.read_csv('/kaggle/input/vinbigdatastack/submission (1).csv')               LB 0.235   ver4
 
-      df2 = pd.read_csv('/kaggle/input/vinbigdata-14-class-submission-lb0154/submission.csv')    LB    ver5     ->> 2
+      df2 = pd.read_csv('/kaggle/input/vinbigdata-14-class-submission-lb0154/submission.csv')    LB 0.154   ver5  
 
 -------
 
