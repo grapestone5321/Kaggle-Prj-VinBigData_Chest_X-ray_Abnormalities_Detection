@@ -196,25 +196,31 @@ https://www.kaggle.com/awsaf49/vinbigdata-2class-prediction
 
 ### pred_14cls = pd.read_csv
 
-      vinbigdata-14-class-submission-lb0154/submission.csv (LB  ):       LB 0.211   ver1
+      vinbigdata-14-class-submission-lb0154/submission.csv (LB 0.154):       LB 0.211   ver1
       vinbigdatastack/submission_postprocessed.csv (LB 0.239):           LB 0.243   ver3 
 
 
 ### low_thr, high_thr: default = 0.08, 0.95
 
 vinbigdatastack/submission_postprocessed.csv (LB 0.239):
-
-low_thr  = 0.08:
-
-      high_thr = 0.95    LB 0.243   ver3      ->> 1
-      high_thr = 0.87    LB 0.243   ver4      ->> 2
-      
       
 high_thr = 0.87:
 
-      low_threshold = 0.0     LB 0.236   vsr5     ->> 3
+      low_threshold = 0.0     LB 0.236   vsr5
       
+high_thr = 0.95:
+
+      low_threshold = 0.09     LB 0.242   ver7
+      low_threshold = 0.08     LB 0.243   ver3
+      low_threshold = 0.07     LB 0.242   ver6   
       
+low_thr  = 0.08:
+
+      high_thr = 0.97    LB 0.243   ver9
+      high_thr = 0.95    LB 0.243   ver3
+      high_thr = 0.93    LB 0.243   ver8 
+      high_thr = 0.87    LB 0.243   ver4 
+         
       
 -------
 
