@@ -201,9 +201,13 @@ low_thr, high_thr = 0.08, 0.95:
       vinbigdata-14-class-submission-lb0154/submission.csv (LB 0.154):       LB 0.211   ver1
       vinbigdatastack/submission_postprocessed.csv (LB 0.239):               LB 0.243   ver3 
       vinbigdatastack/submission.csv (LB 0.241):                             LB 0.244   ver10
-      vinbigdatastack/submission (1).csv (LB 0.235)                          LB 0.241   ver11   ->> 1
+      vinbigdatastack/submission (1).csv (LB 0.235)                          LB 0.241   ver11  
       
-      vinbigdatalb0246/submissionlb246.csv (LB 0.246):                             LB    ver    ->> 2
+      vinbigdatasubmissions1/submission-0246-ens-ver7.csv (LB 0.246):        LB 0.246   ver12      147 -> 147     
+      vinbigdatasubmissions1/submission-0243-muhammad.csv (LB 0.243):        LB 0.244   ver14     
+      
+      vinbigdatasubmissions1/submission-0246-old.csv (LB 0.246):             LB    ver   ->> 1
+      vinbigdatasubmissions1/submission2-0246-mahmud.csv (LB 0.246):         LB    ver   ->> 2
 
 
 ### low_thr, high_thr: default = 0.08, 0.95
@@ -260,14 +264,16 @@ high_threshold = 0.87:
 
 high_threshold = 0.87, low_threshold = 0.0:
       
-      vinbigdatastack/submission_postprocessed.csv (LB 0.239):   LB 0.246   ver7   --- Best
-      vinbigdatastack/submission.csv (LB 0.241):                 LB 0.245   ver16
-      vinbigdatastack/submission (1).csv (LB 0.235)              LB 0.244   ver17
+      vinbigdatastack/submission_postprocessed.csv (LB 0.239):                LB 0.246   ver7   --- Best
+      vinbigdatastack/submission.csv (LB 0.241):                              LB 0.245   ver16
+      vinbigdatastack/submission (1).csv (LB 0.235)                           LB 0.244   ver17
       
-      vinbigdata-14-class-submission-lb0154/submission.csv (LB 0.154)    LB 0.208   ver18 
+      vinbigdata-14-class-submission-lb0154/submission.csv (LB 0.154)         LB 0.208   ver18 
       
-      vinbigdatalb0244/submissionlb244.csv (LB 0.244):      LB    ver   -->> 3
-      
+      vinbigdatasubmissions1/submission-0244-2clfil-ver10.csv (LB 0.244):     LB 0.246   ver19      147 -> 147  
+      vinbigdatasubmissions1/submission-0243-muhammad.csv (LB 0.243):         LB 0.245   ver20      
+      vinbigdatasubmissions1/submission-0246-old.csv (LB 0.246):              LB    ver   ->> 3
+      vinbigdatasubmissions1/submission2-0246-mahmud.csv (LB 0.246):          LB    ver   ->> 4
 
 -------
 
