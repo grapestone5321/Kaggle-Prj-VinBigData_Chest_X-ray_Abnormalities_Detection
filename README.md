@@ -206,8 +206,8 @@ low_thr, high_thr = 0.08, 0.95:
       vinbigdatasubmissions1/submission-0246-ens-ver7.csv (LB 0.246):        LB 0.246   ver12      147 -> 147     
       vinbigdatasubmissions1/submission-0243-muhammad.csv (LB 0.243):        LB 0.244   ver14     
       
-      vinbigdatasubmissions1/submission-0246-old.csv (LB 0.246):             LB    ver   ->> 1
-      vinbigdatasubmissions1/submission2-0246-mahmud.csv (LB 0.246):         LB    ver   ->> 2
+      vinbigdatasubmissions1/submission-0246-old.csv (LB 0.246):             LB 0.246   ver15      151 -> 151    ->> 1
+      vinbigdatasubmissions1/submission2-0246-mahmud.csv (LB 0.246):         LB 0.246   ver16      151 -> 151   ->> 2
 
 
 ### low_thr, high_thr: default = 0.08, 0.95
@@ -272,8 +272,8 @@ high_threshold = 0.87, low_threshold = 0.0:
       
       vinbigdatasubmissions1/submission-0244-2clfil-ver10.csv (LB 0.244):     LB 0.246   ver19      147 -> 147  
       vinbigdatasubmissions1/submission-0243-muhammad.csv (LB 0.243):         LB 0.245   ver20      
-      vinbigdatasubmissions1/submission-0246-old.csv (LB 0.246):              LB    ver   ->> 3
-      vinbigdatasubmissions1/submission2-0246-mahmud.csv (LB 0.246):          LB    ver   ->> 4
+      vinbigdatasubmissions1/submission-0246-old.csv (LB 0.246):              LB 0.245   ver21   ->> 3
+      vinbigdatasubmissions1/submission2-0246-mahmud.csv (LB 0.246):          LB 0.245   ver22   ->> 4
 
 -------
 
