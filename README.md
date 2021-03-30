@@ -164,17 +164,17 @@ https://www.kaggle.com/awsaf49/vinbigdata-cxr-ad-yolov5-14-class-infer
 ### !python detect.py --weights $weights_dir\
 
       --conf 0.15:    LB  0.148    ver1
-      --conf 0.01:    LB      ver4        --> 1
+      --conf 0.01:    LB  0.152    ver4    
       
 ### dim = 512 #1024, 256, 'original'
       test_dir = f'/kaggle/input/vinbigdata-{dim}-image-dataset/vinbigdata/test'
 
 --conf 0.01: 
 
-      dim = 256       LB      ver
-      dim = 512       LB      ver4    --> 2
-      dim = 1024      LB      ver
-
+      dim = 'original'       LB 00.146, error     ver7
+      dim = 256              LB 0.125             ver6
+      dim = 512              LB 0.152             ver4
+      dim = 1024             LB 0.152             ver5
 
 -------
 
@@ -208,6 +208,8 @@ low_thr, high_thr = 0.08, 0.95:
       
       vinbigdatasubmissions1/submission-0246-old.csv (LB 0.246):             LB 0.246   ver15      151 -> 151
       vinbigdatasubmissions1/submission2-0246-mahmud.csv (LB 0.246):         LB 0.246   ver16      151 -> 151
+
+      vinbigdatasubmissions1/submission-0244-2clfil-ver10.csv (LB 0.246):    LB 0.244   ver18 
 
 
 ### low_thr, high_thr: default = 0.08, 0.95
