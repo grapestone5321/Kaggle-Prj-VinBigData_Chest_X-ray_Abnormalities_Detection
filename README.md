@@ -203,11 +203,11 @@ low_thr, high_thr = 0.08, 0.95:
       vinbigdatastack/submission.csv (LB 0.241):                             LB 0.244   ver10
       vinbigdatastack/submission (1).csv (LB 0.235)                          LB 0.241   ver11  
       
-      vinbigdatasubmissions1/submission-0246-ens-ver7.csv (LB 0.246):        LB 0.246   ver12      147 -> 147     
+      vinbigdatasubmissions1/submission-0246-ens-ver7.csv (LB 0.246):        LB 0.246   ver12      147 -> 147       --- Best 
       vinbigdatasubmissions1/submission-0243-muhammad.csv (LB 0.243):        LB 0.244   ver14     
       
-      vinbigdatasubmissions1/submission-0246-old.csv (LB 0.246):             LB 0.246   ver15      151 -> 151    ->> 1
-      vinbigdatasubmissions1/submission2-0246-mahmud.csv (LB 0.246):         LB 0.246   ver16      151 -> 151   ->> 2
+      vinbigdatasubmissions1/submission-0246-old.csv (LB 0.246):             LB 0.246   ver15      151 -> 151
+      vinbigdatasubmissions1/submission2-0246-mahmud.csv (LB 0.246):         LB 0.246   ver16      151 -> 151
 
 
 ### low_thr, high_thr: default = 0.08, 0.95
@@ -231,7 +231,11 @@ low_thr  = 0.08:
       high_thr = 0.93    LB 0.243   ver8 
       high_thr = 0.87    LB 0.243   ver4 
          
-      
+pred_14cls = pd.read_csv('/kaggle/input/vinbigdatasubmissions1/submission-0246-ens-ver7.csv'):
+
+      if prob<low_thr:, elif low_thr<=prob<high_thr:, elif high_thr<=prob:      LB 0.246   ver12    --- Best
+      if prob<=low_thr:, elif low_thr<prob<high_thr:, elif high_thr<=prob:      LB 0.246   ver17 
+
 -------
 
 ## Ensemble of best public notebooks
@@ -272,8 +276,14 @@ high_threshold = 0.87, low_threshold = 0.0:
       
       vinbigdatasubmissions1/submission-0244-2clfil-ver10.csv (LB 0.244):     LB 0.246   ver19      147 -> 147  
       vinbigdatasubmissions1/submission-0243-muhammad.csv (LB 0.243):         LB 0.245   ver20      
-      vinbigdatasubmissions1/submission-0246-old.csv (LB 0.246):              LB 0.245   ver21   ->> 3
-      vinbigdatasubmissions1/submission2-0246-mahmud.csv (LB 0.246):          LB 0.245   ver22   ->> 4
+      vinbigdatasubmissions1/submission-0246-old.csv (LB 0.246):              LB 0.245   ver21 
+      vinbigdatasubmissions1/submission2-0246-mahmud.csv (LB 0.246):          LB 0.245   ver22 
+
+pred_det_df = pd.read_csv("../input/vinbigdatastack/submission_postprocessed.csv"):
+
+    if p0 < low_threshold:, elif low_threshold <= p0 and p0 < high_threshold:       LB 0.246   ver7   --- Best
+    if p0 < low_threshold:, elif low_threshold <= p0 and p0 <= high_threshold:      LB 0.246   ver24 
+    if p0 <= low_threshold:, elif low_threshold < p0 and p0 < high_threshold:       LB 0.246   ver25 
 
 -------
 
